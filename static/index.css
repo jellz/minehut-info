@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+    font-family: 'Handlee', sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    font-family: 'Joti One', sans-serif;
+}
+
+h2 {
+    font-family: 'Handlee', sans-serif;
+}
+
+a:link, a:visited { 
+    color: gray;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: none;
+}
