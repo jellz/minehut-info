@@ -12,12 +12,13 @@
         <h1>minehut.fun</h1>
         <form name="serverInfo" class="pure-form" action="" method="GET">
             <h2>Enter any Minehut server and receive instant statistics!</h2>
+            <h2><span style="color:red;">Note! As per Minehut API limitations, you must use exact capitalisation.</span></h2>
             <input type="text" name="server" value="">
             <input class="pure-button" type="submit" value="Get statistics!">
-            <!-- <input type="button" name="button" value="Get statistics!" onclick="alert(this.form.serverName.value);"> -->
         </form>
     </body>
     <footer>
         <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://jellz.me/"><strong>Jellz</strong></a> for the <a href="https://minehut.com/"><strong>Minehut</strong></a> community.</p>
+        <a href="https://paypal.me/luckyreading/2usd"><img src="http://www.nelsonformnhouse.com/wp-content/uploads/2016/08/PayPal-Donate-Button-PNG-Clipart.png" alt="Donate with Paypal" width="120" height="50"></a>
     </footer>
 </html>
