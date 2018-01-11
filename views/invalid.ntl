@@ -1,23 +1,17 @@
 <html>
     <head>
-        <title>{{{name}}} &bullet; minehut.fun</title>
+        <title>Error &bullet; minehut.fun</title>
         <link href="../static/server.css" rel="stylesheet" type="text/css">
         <link href="../static/favicon.ico" rel="icon" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Handlee|Joti+One|Cabin" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Joti+One" rel="stylesheet" type="text/css">
         <link href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" rel="stylesheet" type="text/css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <script src="https://use.fontawesome.com/a90dd60b5c.js"></script>
     </head>
     <body>
         <h1>minehut.fun</h1>
-        <h2>Server | <span class="value">{{{name}}}</span></h2>
-        <h2>IP | <span class="value">{{{ip}}}</span></h2>
-        <h2>MOTD | <span class="value">{{{motd}}}</span></h2>
-        <h2>Online Players | <span class="value">{{{onlinePlayers}}}</span></h2>
-        <h2>Maximum Players | <span class="value">{{{maxPlayers}}}</span></h2>
-        <h2>Creation | <span class="value">{{{creation}}}</span></h2>
-        <h2>Credits Per Day | <span class="value">{{{creditsPerDay}}}</span></h2>
-        <h2><span class="value">{{{name}}}</span> is currently {{{status}}}.</h2>
+        <h2>Oh no! It seems we've encountered an error...</h2>
+        <h2><span class="value">{{{name}}}</span> is not a valid Minehut server. Please try again!</h2>
     </body>
     <footer>
         <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://jellz.me/"><strong>Jellz</strong></a> for the <a href="https://minehut.com/"><strong>Minehut</strong></a> community.</p>

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jellz/minehut.fun#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "minehut-api": "^1.0.2",
     "snekfetch": "^3.6.1"
   }
 }
