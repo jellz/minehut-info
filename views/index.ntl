@@ -11,8 +11,7 @@
     <body>
         <h1>minehut.fun</h1>
         <form name="serverInfo" class="pure-form" action="" method="GET">
-            <h2>Enter any Minehut server and receive instant statistics!</h2>
-            <h2><span style="color:red;">Note! As per Minehut API limitations, you must use exact capitalisation.</span></h2>
+            <h2>Enter any Minehut server and receive instant statistics! (Note: this project is still in development, bugs are present!)</h2>
             <input type="text" name="server" value="">
             <input class="pure-button" type="submit" value="Get statistics!">
         </form>
