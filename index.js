@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3002;
 
 app.set('views', './views');
 app.set('view engine', 'ntl');
@@ -13,5 +14,5 @@ app.use(function(req, res) {
     res.status(404).send('404');
 });
 
-app.listen(6969);
-console.log('Listening on 6969.');
+app.listen(port);
+console.log(`Listening on ${port}.`);
