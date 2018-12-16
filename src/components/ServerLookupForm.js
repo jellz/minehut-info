@@ -15,7 +15,7 @@ class ServerLookupForm extends Component {
         <form onSubmit={(e) => this.handleSubmit(e)}>
           <Field hasAddons>
             <Control>
-              <Input id='server-name-input' type='text' placeholder='Name of the server' />
+              <Input id='server-name-input' type='text' placeholder='beans' />
             </Control>
             <Control>
               <Button isColor='info' type='submit' isOutlined>
