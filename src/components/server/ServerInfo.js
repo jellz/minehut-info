@@ -35,6 +35,7 @@ class ServerInfo extends Component {
     return (
       <div>
         <Title style={{fontSize: 50, fontFamily: 'Righteous'}} className='has-text-warning'>{this.state.serverInfo ? this.state.serverInfo.name : this.state.serverName}</Title>
+        <a href='/'>{'<- back'}</a>
         {this.state.error !== null && <Title className='has-text-danger'>{this.state.error}</Title>}
         {(!this.state.ready && !this.state.error) && 
         <div style={{paddingTop: '10%'}}>
