@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bloomer": "^0.6.5",
+    "bulma": "^0.7.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-tooltip": "^3.9.0",
+    "s-ago": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
