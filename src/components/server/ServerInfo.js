@@ -18,14 +18,14 @@ class ServerInfo extends Component {
 
   async componentDidMount() {
     console.log('fetching server ' + this.state.serverName);
-    let res = await fetch('https://pocket.minehut.com/server/' + this.state.serverName + '?byName=true');
+    let res = await fetch('https://api.minehut.com/server/' + this.state.serverName + '?byName=true');
     let json = await res.json();
     console.log(json);
     if (json.server == null) return this.setState({ error: 'Invalid server'});
     this.setState({ serverInfo: json.server });
 
     console.log('fetching plugin database');
-    res = await fetch('https://pocket.minehut.com/plugins_public');
+    res = await fetch('https://api.minehut.com/plugins_public');
     json = await res.json();
     console.log(json);
     this.setState({ pluginDb: json.all, ready: true });
