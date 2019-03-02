@@ -16,11 +16,11 @@ class Router extends Component {
             </Switch>
             <p style={{paddingBottom: '5%', paddingTop: '5%'}}>
               Made with<Icon hasTextColor='danger' className='fa fa-heart'></Icon> 
-              by <a href='https://twitter.com/jellzoof'>jellz</a>.
+              by <a href='https://github.com/jellz'>jellz</a>.
               <br />
-              This website is <a href='https://github.com/danielgulic/minehut.fun'>open-source on Github</a>.
+              This website is <a href='https://github.com/jellz/minehut-info'>open-source on Github</a>.
               <br />
-              Copyright &copy; 2018 Daniel Gulic. All rights reserved.
+              Copyright &copy; 2018-2020 Daniel Gulic. All rights reserved.
             </p>
           </div>
         </div>
