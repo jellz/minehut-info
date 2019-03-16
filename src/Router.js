@@ -20,7 +20,7 @@ class Router extends Component {
               <br />
               This website is <a href='https://github.com/jellz/minehut-info'>open-source on Github</a>.
               <br />
-              Copyright &copy; 2018-2020 Daniel Gulic. All rights reserved.
+              Copyright &copy; 2018-2020 <a href='https://danielgulic.com'>Daniel Gulic</a>. All rights reserved.
             </p>
           </div>
         </div>
