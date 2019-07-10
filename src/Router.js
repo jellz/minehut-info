@@ -11,17 +11,17 @@ class Router extends Component {
         <div>
           <div className='container' style={{textAlign: 'center', paddingTop: '3%'}}>
             <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/s/:name' component={ServerInfo} />
+              <Route exact path='/' component={Home} className='content' />
+              <Route path='/s/:name' component={ServerInfo} className='content' />
             </Switch>
-            <p style={{paddingBottom: '5%', paddingTop: '5%'}}>
+            <div className='foot'>
               Made with<Icon hasTextColor='danger' className='fa fa-heart'></Icon> 
-              by <a href='https://github.com/jellz'>jellz</a>.
+              by <a href='https://jlz.fun'>jellz</a>.
               <br />
-              This website is <a href='https://github.com/jellz/minehut-info'>open-source on Github</a>.
+              This website is <a href='https://github.com/jellz/minehut-info'>open-source on GitHub</a>.
               <br />
-              Copyright &copy; 2018-2020 <a href='https://danielgulic.com'>Daniel Gulic</a>. All rights reserved.
-            </p>
+              Copyright &copy; 2018-2020 Daniel Gulic. All rights reserved.
+            </div>
           </div>
         </div>
       </BrowserRouter>

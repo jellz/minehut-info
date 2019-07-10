@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Righteous');
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .dotted { border-bottom: 1px dotted #999; text-decoration: none; }
+.container { min-height: 100%; position: relative; }
 
+.foot {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
 /* Animations: spinning, fade-in */
 .spinning {
   -webkit-animation: spin 4s linear infinite;
