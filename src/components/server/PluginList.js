@@ -15,10 +15,10 @@ class PluginList extends Component {
       {this.props.pluginDb !== null && 
       <Panel>
         <PanelHeading>Plugins</PanelHeading>
-        <PanelTabs>
+        {/* <PanelTabs>
           <PanelTab isActive={this.state.page === 'installed'} onClick={() => this.setState({ page: 'installed' })}>Installed</PanelTab>
           <PanelTab isActive={this.state.page === 'purchased'} onClick={() => this.setState({ page: 'purchased' })}>Purchased</PanelTab>
-        </PanelTabs>
+        </PanelTabs> */}
         {this.state.page === 'installed' && 
         <div>
           {this.props.serverInfo.active_plugins.map(id => 
